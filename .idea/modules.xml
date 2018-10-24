@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/AddressBookTesting.iml" filepath="$PROJECT_DIR$/AddressBookTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newGroupCreate.iml" filepath="$PROJECT_DIR$/.idea/modules/newGroupCreate.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newGroupCreate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/newGroupCreate_main.iml" group="newGroupCreate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/newGroupCreate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/newGroupCreate_test.iml" group="newGroupCreate" />
+    </modules>
+  </component>
+</project>
