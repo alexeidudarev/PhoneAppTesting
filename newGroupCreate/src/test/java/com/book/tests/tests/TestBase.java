@@ -1,6 +1,7 @@
 package com.book.tests.tests;
 
 import com.book.tests.manager.AppManager;
+import com.book.tests.model.User;
 import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 
@@ -13,6 +14,7 @@ public class TestBase {
     @BeforeClass(alwaysRun = true)
     public void setUp() throws Exception {
         app.init();
+
     }
 
     @AfterClass(alwaysRun = true)

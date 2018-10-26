@@ -1,7 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="abf577a1-d8fa-4dc9-81b6-9fc1fc21f701" name="Default Changelist" comment="" />
+    <list default="true" id="abf577a1-d8fa-4dc9-81b6-9fc1fc21f701" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/ContactHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/HelperBase.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/NavigationHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/SessionHelper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/Contact.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/CreateContactTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules/newGroupCreate_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules/newGroupCreate_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newGroupCreate/out/test/classes/com/book/tests/manager/AppManager.class" beforeDir="false" afterPath="$PROJECT_DIR$/newGroupCreate/out/test/classes/com/book/tests/manager/AppManager.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newGroupCreate/out/test/classes/com/book/tests/model/NewGroup.class" beforeDir="false" afterPath="$PROJECT_DIR$/newGroupCreate/out/test/classes/com/book/tests/model/NewGroup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newGroupCreate/out/test/classes/com/book/tests/model/User.class" beforeDir="false" afterPath="$PROJECT_DIR$/newGroupCreate/out/test/classes/com/book/tests/model/User.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newGroupCreate/out/test/classes/com/book/tests/tests/AdressBookGroupCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/newGroupCreate/out/test/classes/com/book/tests/tests/AdressBookGroupCreation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newGroupCreate/out/test/classes/com/book/tests/tests/TestBase.class" beforeDir="false" afterPath="$PROJECT_DIR$/newGroupCreate/out/test/classes/com/book/tests/tests/TestBase.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/AppManager.java" beforeDir="false" afterPath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/AppManager.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/GroupHelper.java" beforeDir="false" afterPath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/GroupHelper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/NewGroup.java" beforeDir="false" afterPath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/NewGroup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/User.java" beforeDir="false" afterPath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/User.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/AdressBookGroupCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/AdressBookGroupCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/GroupModificationTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/GroupModificationTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/TestBase.java" beforeDir="false" afterPath="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/TestBase.java" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/newGroupCreate/.gradle/" />
     <ignored path="$PROJECT_DIR$/newGroupCreate/build/" />
@@ -28,34 +49,37 @@
     <session id="1279734317">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.1" value="1" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.5" value="1" />
+          <entry key="project.open.time.6" value="2" />
+          <entry key="project.open.time.7" value="2" />
+          <entry key="project.opened" value="7" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="6" />
+          <entry key="java" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="6" />
+          <entry key="JAVA" value="35" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="gradle" value="1" />
-          <entry key="java" value="137" />
+          <entry key="java" value="1810" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="137" />
+          <entry key="JAVA" value="1810" />
         </counts>
       </usages-collector>
     </session>
@@ -63,19 +87,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newGroupCreate/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="306">
-              <caret line="17" selection-start-line="17" selection-end-line="17" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/AdressBookGroupCreation.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="126">
-              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+            <state relative-caret-position="177">
+              <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,28 +99,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/NewGroup.java">
+        <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/AppManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+            <state relative-caret-position="532">
+              <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/User.java">
+        <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/CreateContactTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="36">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/TestBase.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+            <state relative-caret-position="190">
+              <caret line="10" selection-start-line="10" selection-end-line="10" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -114,16 +123,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/AppManager.java">
+        <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/ContactHelper.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+            <state relative-caret-position="247">
+              <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1648#1649#0" expanded="true" />
-                <element signature="e#1711#1712#0" expanded="true" />
-                <element signature="e#3125#3126#0" expanded="true" />
-                <element signature="e#3191#3192#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -137,6 +142,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="myGradleHomes">
@@ -439,24 +447,37 @@
         <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/GroupCreationTesting.java" />
         <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/AdressBookGroupCreation.java" />
         <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/TestBase.java" />
-        <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/NewGroup.java" />
         <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/AppManager.java" />
+        <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/NewGroup.java" />
+        <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/TestBase.java" />
+        <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/GroupHelper.java" />
+        <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/AdressBookGroupCreation.java" />
+        <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/GroupModificationTest.java" />
+        <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/NavigationHelper.java" />
+        <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/Contact.java" />
         <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/AppManager.java" />
+        <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/CreateContactTest.java" />
+        <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/User.java" />
+        <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/HelperBase.java" />
+        <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/SessionHelper.java" />
+        <option value="$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/ContactHelper.java" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
-    <option name="y" value="29" />
+    <option name="y" value="23" />
     <option name="width" value="1440" />
-    <option name="height" value="810" />
+    <option name="height" value="812" />
   </component>
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -499,20 +520,52 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="tests" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="AddressBookTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AddressBookTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="newGroupCreate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="manager" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AddressBookTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AddressBookTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="newGroupCreate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="model" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="AddressBookTesting" type="b2602c69:ProjectViewProjectNode" />
+              <item name="AddressBookTesting" type="462c0819:PsiDirectoryNode" />
+              <item name="newGroupCreate" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="8a07ba80:GradleTreeStructureProvider$GradleModuleDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+              <item name="tests" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540339245669" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1540595731574" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="settings.editor.selected.configurable" value="editor.preferences.fonts.default" />
   </component>
   <component name="RecentsManager">
     <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.book.tests.manager" />
       <recent name="com.book.tests" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
@@ -531,7 +584,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.AdressBookGroupCreation">
     <configuration name="AdressBookGroupCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
       <module name="newGroupCreate_test" />
       <extension name="coverage">
@@ -548,9 +601,88 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AdressBookGroupCreation.testAdressBookGroupCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="newGroupCreate_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.book.tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.book.tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.book.tests.tests.AdressBookGroupCreation" />
+      <option name="METHOD_NAME" value="testAdressBookGroupCreation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="CreateContactTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="newGroupCreate_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.book.tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.book.tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.book.tests.tests.CreateContactTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupModificationTest" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="newGroupCreate_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.book.tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.book.tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.book.tests.tests.GroupModificationTest" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="GroupModificationTest.testAdressBookGroupCreation" type="TestNG" factoryName="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="newGroupCreate_test" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.book.tests.tests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.book.tests.tests" />
+      <option name="MAIN_CLASS_NAME" value="com.book.tests.tests.GroupModificationTest" />
+      <option name="METHOD_NAME" value="testAdressBookGroupCreation" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="TestNG.AdressBookGroupCreation" />
+      <item itemvalue="TestNG.GroupModificationTest" />
+      <item itemvalue="TestNG.GroupModificationTest.testAdressBookGroupCreation" />
+      <item itemvalue="TestNG.AdressBookGroupCreation.testAdressBookGroupCreation" />
+      <item itemvalue="TestNG.CreateContactTest" />
+    </list>
     <recent_temporary>
       <list>
         <item itemvalue="TestNG.AdressBookGroupCreation" />
+        <item itemvalue="TestNG.CreateContactTest" />
+        <item itemvalue="TestNG.AdressBookGroupCreation.testAdressBookGroupCreation" />
+        <item itemvalue="TestNG.GroupModificationTest" />
+        <item itemvalue="TestNG.GroupModificationTest.testAdressBookGroupCreation" />
       </list>
     </recent_temporary>
   </component>
@@ -568,25 +700,51 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="AdressBookGroupCreation - 2018.10.24 at 02h 28m 28s.xml">
+    <history-entry file="AdressBookGroupCreation_testAdressBookGroupCreation - 2018.10.25 at 04h 01m 19s.xml">
+      <configuration name="AdressBookGroupCreation.testAdressBookGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="GroupModificationTest - 2018.10.25 at 04h 30m 56s.xml">
+      <configuration name="GroupModificationTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateContactTest - 2018.10.27 at 01h 57m 02s.xml">
+      <configuration name="CreateContactTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AdressBookGroupCreation_testAdressBookGroupCreation - 2018.10.27 at 01h 57m 46s.xml">
+      <configuration name="AdressBookGroupCreation.testAdressBookGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AdressBookGroupCreation - 2018.10.27 at 01h 59m 37s.xml">
+      <configuration name="AdressBookGroupCreation" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateContactTest - 2018.10.27 at 02h 00m 54s.xml">
+      <configuration name="CreateContactTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateContactTest - 2018.10.27 at 02h 04m 36s.xml">
+      <configuration name="CreateContactTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateContactTest - 2018.10.27 at 02h 09m 44s.xml">
+      <configuration name="CreateContactTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="CreateContactTest - 2018.10.27 at 02h 11m 25s.xml">
+      <configuration name="CreateContactTest" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="AdressBookGroupCreation - 2018.10.27 at 02h 13m 16s.xml">
       <configuration name="AdressBookGroupCreation" configurationId="TestNG" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="29" width="1440" height="810" extended-state="0" />
+    <frame x="0" y="23" width="1440" height="812" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2532189" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22982709" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Image Layers" order="2" />
       <window_info id="Designer" order="3" />
       <window_info id="Capture Tool" order="4" />
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Messages" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.3286908" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.25392297" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -595,6 +753,7 @@
       <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
       <window_info anchor="bottom" id="Version Control" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="Build" order="10" />
+      <window_info anchor="bottom" id="Messages" order="11" weight="0.32918397" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -610,16 +769,7 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/GroupCreationTesting.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/GroupCreationTesting.java" />
     <entry file="file://$PROJECT_DIR$/newGroupCreate/build.gradle">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="306">
@@ -627,24 +777,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/User.java">
+    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/GroupModificationTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/NewGroup.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="36">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/AdressBookGroupCreation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        <state relative-caret-position="304">
+          <caret line="16" column="44" selection-start-line="16" selection-start-column="44" selection-end-line="16" selection-end-column="44" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -653,8 +789,92 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/TestBase.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+        <state relative-caret-position="209">
+          <caret line="16" selection-start-line="16" selection-end-line="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/NavigationHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="266">
+          <caret line="16" column="43" selection-start-line="16" selection-start-column="43" selection-end-line="16" selection-end-column="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#362#363#0" expanded="true" />
+            <element signature="e#385#386#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/GroupHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="40" column="32" lean-forward="true" selection-start-line="40" selection-end-line="43" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#225#226#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/NewGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="98">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/Contact.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="7" selection-start-line="7" selection-end-line="7" />
+          <folding>
+            <element signature="e#419#420#0" expanded="true" />
+            <element signature="e#446#447#0" expanded="true" />
+            <element signature="e#555#556#0" expanded="true" />
+            <element signature="e#588#589#0" expanded="true" />
+            <element signature="e#721#722#0" expanded="true" />
+            <element signature="e#754#755#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#912#913#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/model/User.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="10" selection-start-line="4" selection-start-column="10" selection-end-line="4" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/HelperBase.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="25" column="49" selection-start-line="25" selection-start-column="49" selection-end-line="25" selection-end-column="49" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/SessionHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="324">
+          <caret line="23" column="52" selection-start-line="23" selection-start-column="52" selection-end-line="23" selection-end-column="52" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#278#279#0" expanded="true" />
+            <element signature="e#322#323#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/AdressBookGroupCreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="177">
+          <caret line="11" column="46" lean-forward="true" selection-start-line="11" selection-start-column="46" selection-end-line="11" selection-end-column="46" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -663,14 +883,30 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/AppManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="11" column="13" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
+        <state relative-caret-position="532">
+          <caret line="28" column="56" lean-forward="true" selection-start-line="28" selection-start-column="56" selection-end-line="28" selection-end-column="56" />
           <folding>
             <element signature="imports" expanded="true" />
-            <element signature="e#1648#1649#0" expanded="true" />
-            <element signature="e#1711#1712#0" expanded="true" />
-            <element signature="e#3125#3126#0" expanded="true" />
-            <element signature="e#3191#3192#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/tests/CreateContactTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="190">
+          <caret line="10" selection-start-line="10" selection-end-line="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/newGroupCreate/src/test/java/com/book/tests/manager/ContactHelper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="247">
+          <caret line="15" column="30" selection-start-line="15" selection-start-column="30" selection-end-line="15" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

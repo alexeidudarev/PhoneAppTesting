@@ -1,8 +1,8 @@
 package com.book.tests.model;
 
 public class User {
-    private final String userName;
-    private final String password;
+    public String userName;
+    public String password;
 
     public User(String userName, String password) {
         this.userName = userName;
