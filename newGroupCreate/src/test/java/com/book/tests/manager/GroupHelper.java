@@ -41,5 +41,12 @@ public class GroupHelper extends HelperBase {
     public int getNumberOfGroups() {
         return  driver.findElements(By.xpath("//*[@name='selected[]']")).size();
     }
+    public boolean isGroupExist(){ return isElementPresented(By.name("selected[]")); }
+    public void createNewDefaultGroup(){
+        newGroupCreation(new NewGroup()
+                .setGroupFooter("1")
+                .setGroupHeader("1")
+                .setGroupName("1"));
 
+    }
 }

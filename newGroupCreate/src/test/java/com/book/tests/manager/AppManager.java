@@ -3,7 +3,11 @@ package com.book.tests.manager;
 import com.book.tests.model.NewGroup;
 import com.book.tests.model.User;
 import org.openqa.selenium.*;
+import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
+import org.openqa.selenium.remote.BrowserType;
+import org.openqa.selenium.safari.SafariDriver;
+
 
 import java.util.concurrent.TimeUnit;
 
@@ -16,12 +20,25 @@ public class AppManager {
     private NavigationHelper navigationHelper;
     private ContactHelper contactHelper;
     private WebDriver driver;
+    private String browser;
     private String baseUrl;
     private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
 
+    public AppManager(String browser) {
+        this.browser = browser;
+    }
+
     public void init() {
-        driver = new FirefoxDriver();
+        if(browser.equals(BrowserType.FIREFOX)){
+            driver = new FirefoxDriver();
+        }else if(browser.equals(BrowserType.CHROME)){
+            driver = new ChromeDriver();
+        }else if(browser.equals(BrowserType.SAFARI)){
+            driver = new SafariDriver();
+        }
+
+
         baseUrl = "https://www.katalon.com/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         groupHelper = new GroupHelper(driver);
@@ -74,14 +91,9 @@ public class AppManager {
         }
     }
 
+    public SessionHelper getSessionHelper() { return sessionHelper; }
 
-    public SessionHelper getSessionHelper() {
-        return sessionHelper;
-    }
-
-    public GroupHelper getGroupHelper() {
-        return groupHelper;
-    }
+    public GroupHelper getGroupHelper(){ return groupHelper; }
 
     public NavigationHelper getNavigationHelper(){ return  navigationHelper; }
 
