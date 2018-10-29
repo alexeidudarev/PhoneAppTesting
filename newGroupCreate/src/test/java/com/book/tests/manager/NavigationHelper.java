@@ -25,7 +25,7 @@ public class NavigationHelper extends HelperBase {
         click(By.xpath("//a[@href='edit.php']"));
     }
     public void goToHomePage(){
-        if(!isElementPresented(By.id("maintable"))){
+        if(!isElementPresented(By.xpath("//table[@id='maintable']"))){
            click(By.xpath("//a[@href='./']"));
         }
     }

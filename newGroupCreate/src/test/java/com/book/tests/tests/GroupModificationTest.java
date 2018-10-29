@@ -21,7 +21,7 @@ public class GroupModificationTest extends  TestBase {
         int after = app.getGroupHelper().getNumberOfGroups();
         System.out.println("before: "+before+" ,after : "+after);
         Assert.assertEquals(after,before);
-        app.getSessionHelper().logout();
+
 
     }
 }

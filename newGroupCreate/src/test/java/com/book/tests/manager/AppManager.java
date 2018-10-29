@@ -38,7 +38,6 @@ public class AppManager {
             driver = new SafariDriver();
         }
 
-
         baseUrl = "https://www.katalon.com/";
         driver.manage().timeouts().implicitlyWait(30, TimeUnit.SECONDS);
         groupHelper = new GroupHelper(driver);
@@ -50,7 +49,7 @@ public class AppManager {
     }
 
     public void stop() {
-
+        sessionHelper.logout();
         driver.quit();
         String verificationErrorString = verificationErrors.toString();
         if (!"".equals(verificationErrorString)) {

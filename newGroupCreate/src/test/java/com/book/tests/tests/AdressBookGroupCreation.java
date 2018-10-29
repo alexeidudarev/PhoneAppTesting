@@ -18,7 +18,7 @@ public class AdressBookGroupCreation extends TestBase {
     app.getNavigationHelper().goToGroupPage();
     int after = app.getGroupHelper().getNumberOfGroups();
     Assert.assertEquals(after,before+1);
-    app.getSessionHelper().logout();
+
   }
 
 

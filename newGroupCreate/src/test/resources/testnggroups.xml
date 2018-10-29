@@ -1,0 +1,10 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
+
+<suite name="Adressbook" verbose="1" >
+    <test name="Groups" >
+        <classes>
+            <class name="com.book.tests.tests.AdressBookGroupCreation" />
+            <class name="com.book.tests.tests.GroupModificationTest" />
+        </classes>
+    </test>
+</suite>
