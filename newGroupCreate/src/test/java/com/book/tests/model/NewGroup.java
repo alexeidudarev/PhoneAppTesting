@@ -5,8 +5,6 @@ public class NewGroup {
     private String groupHeader;
     private String groupFooter;
 
-
-
     public NewGroup setGroupName(String groupName) {
         this.groupName = groupName;
         return this;
@@ -21,6 +19,7 @@ public class NewGroup {
         this.groupFooter = groupFooter;
         return this;
     }
+
 
     public String getGroupName() {
         return groupName;

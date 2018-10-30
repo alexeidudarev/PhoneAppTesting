@@ -6,7 +6,7 @@ import org.testng.annotations.Test;
 
 public class GroupModificationTest extends  TestBase {
 
-    @Test
+    @Test(priority = 1)
     public void modifyGroupTest(){
 
         app.getNavigationHelper().goToGroupPage();

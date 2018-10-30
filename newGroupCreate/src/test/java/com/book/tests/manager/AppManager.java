@@ -1,6 +1,5 @@
 package com.book.tests.manager;
 
-import com.book.tests.model.NewGroup;
 import com.book.tests.model.User;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
@@ -9,6 +8,9 @@ import org.openqa.selenium.remote.BrowserType;
 import org.openqa.selenium.safari.SafariDriver;
 
 
+import java.io.FileReader;
+import java.io.IOException;
+import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import static org.testng.Assert.fail;
@@ -21,15 +23,21 @@ public class AppManager {
     private ContactHelper contactHelper;
     private WebDriver driver;
     private String browser;
+    private Properties properties;
     private String baseUrl;
-    private boolean acceptNextAlert = true;
     private StringBuffer verificationErrors = new StringBuffer();
 
     public AppManager(String browser) {
         this.browser = browser;
+        properties = new Properties();
     }
 
-    public void init() {
+    public void init() throws IOException {
+        String target = System.getProperty("target","local");
+        properties.load(new FileReader(String.format
+                ("src/test/resources/%s.properties",target)));
+
+
         if(browser.equals(BrowserType.FIREFOX)){
             driver = new FirefoxDriver();
         }else if(browser.equals(BrowserType.CHROME)){
@@ -44,8 +52,10 @@ public class AppManager {
         sessionHelper = new SessionHelper(driver);
         navigationHelper = new NavigationHelper(driver);
         contactHelper = new ContactHelper(driver);
-        sessionHelper.loginWebSite();
-        sessionHelper.enterLoginCredentials(new User("admin","secret"));
+        sessionHelper.loginWebSite(properties.getProperty("web.baseUrl"));
+        sessionHelper.enterLoginCredentials(new
+                User(properties.getProperty("web.adminLogin"),
+                properties.getProperty("web.adminPass")));
     }
 
     public void stop() {
@@ -57,38 +67,7 @@ public class AppManager {
         }
     }
 
-    public boolean isElementPresent(By by) {
-        try {
-            driver.findElement(by);
-            return true;
-        } catch (NoSuchElementException e) {
-            return false;
-        }
-    }
 
-    public boolean isAlertPresent() {
-        try {
-            driver.switchTo().alert();
-            return true;
-        } catch (NoAlertPresentException e) {
-            return false;
-        }
-    }
-
-    public String closeAlertAndGetItsText() {
-        try {
-            Alert alert = driver.switchTo().alert();
-            String alertText = alert.getText();
-            if (acceptNextAlert) {
-                alert.accept();
-            } else {
-                alert.dismiss();
-            }
-            return alertText;
-        } finally {
-            acceptNextAlert = true;
-        }
-    }
 
     public SessionHelper getSessionHelper() { return sessionHelper; }
 

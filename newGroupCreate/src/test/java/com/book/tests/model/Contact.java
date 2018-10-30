@@ -1,10 +1,14 @@
 package com.book.tests.model;
 
+import java.io.File;
+
 public class Contact {
-    public String name;
-    public String middleName;
-    public String familyName;
-    public String adress;
+    private String name;
+    private String middleName;
+    private String familyName;
+    private String adress;
+    private String group;
+    private File photo;
 
 
     public String getName() {
@@ -40,6 +44,24 @@ public class Contact {
 
     public Contact setAdress(String adress) {
         this.adress = adress;
+        return this;
+    }
+
+    public String getGroup() {
+        return group;
+    }
+
+    public Contact setGroup(String group) {
+        this.group = group;
+        return this;
+    }
+
+    public File getPhoto() {
+        return photo;
+    }
+
+    public Contact setPhoto(File photo) {
+        this.photo = photo;
         return this;
     }
 }

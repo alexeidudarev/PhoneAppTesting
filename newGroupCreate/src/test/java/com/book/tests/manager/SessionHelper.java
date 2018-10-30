@@ -27,8 +27,8 @@ public class SessionHelper extends HelperBase {
 
 
 
-    public void loginWebSite() {
-        driver.get("http://localhost/addressbook/index.php");
+    public void loginWebSite(String url) {
+        driver.get(url);
     }
 
 }

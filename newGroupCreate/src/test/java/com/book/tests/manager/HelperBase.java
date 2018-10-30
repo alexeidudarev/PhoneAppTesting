@@ -1,13 +1,13 @@
 package com.book.tests.manager;
 
 import com.book.tests.model.User;
-import org.openqa.selenium.By;
-import org.openqa.selenium.NoSuchElementException;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
+
+import java.io.File;
 
 public class HelperBase {
     public WebDriver driver;
-
+    private boolean acceptNextAlert = true;
     public HelperBase(WebDriver dr) {
         this.driver = dr;
     }
@@ -33,6 +33,12 @@ public class HelperBase {
         driver.findElement(locator).sendKeys(text );
     }
 
+    public void attach(By locator, File file){
+        if(file!=null){
+            driver.findElement(locator).sendKeys(file.getAbsolutePath());
+        }
+    }
+
     public boolean isElementPresented(By locator) {
         try{
             driver.findElement(locator);
@@ -42,5 +48,37 @@ public class HelperBase {
             return false;
         }
 
+    }
+    public boolean isElementPresent(By by) {
+        try {
+            driver.findElement(by);
+            return true;
+        } catch (NoSuchElementException e) {
+            return false;
+        }
+    }
+
+    public boolean isAlertPresent() {
+        try {
+            driver.switchTo().alert();
+            return true;
+        } catch (NoAlertPresentException e) {
+            return false;
+        }
+    }
+
+    public String closeAlertAndGetItsText() {
+        try {
+            Alert alert = driver.switchTo().alert();
+            String alertText = alert.getText();
+            if (acceptNextAlert) {
+                alert.accept();
+            } else {
+                alert.dismiss();
+            }
+            return alertText;
+        } finally {
+            acceptNextAlert = true;
+        }
     }
 }
