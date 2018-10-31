@@ -1,5 +1,7 @@
 package com.book.tests.model;
 
+import java.util.Objects;
+
 public class NewGroup {
     private String groupName;
     private String groupHeader;
@@ -31,5 +33,25 @@ public class NewGroup {
 
     public String getGroupFooter() {
         return groupFooter;
+    }
+
+    @Override
+    public String toString() {
+        return "NewGroup{" +
+                "groupName='" + groupName + '\'' +
+                '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        NewGroup newGroup = (NewGroup) o;
+        return Objects.equals(groupName, newGroup.groupName);
+    }
+
+    @Override
+    public int hashCode() {
+        return Objects.hash(groupName);
     }
 }
