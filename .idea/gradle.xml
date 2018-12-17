@@ -3,12 +3,32 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/EbayTest" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/EbayTest" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="disableWrapperSourceDistributionNotification" value="true" />
         <option name="distributionType" value="DEFAULT_WRAPPED" />
         <option name="externalProjectPath" value="$PROJECT_DIR$/newGroupCreate" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/newGroupCreate" />
+          </set>
+        </option>
+        <option name="useAutoImport" value="true" />
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/test-artifact" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/test-artifact" />
           </set>
         </option>
         <option name="useAutoImport" value="true" />

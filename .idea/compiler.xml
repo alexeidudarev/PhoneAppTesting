@@ -2,8 +2,12 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <bytecodeTargetLevel>
+      <module name="EbayTest_main" target="1.8" />
+      <module name="EbayTest_test" target="1.8" />
       <module name="newGroupCreate_main" target="1.8" />
       <module name="newGroupCreate_test" target="1.8" />
+      <module name="test-artifact_main" target="1.8" />
+      <module name="test-artifact_test" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>

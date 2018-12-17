@@ -3,9 +3,15 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/AddressBookTesting.iml" filepath="$PROJECT_DIR$/AddressBookTesting.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EbayTest.iml" filepath="$PROJECT_DIR$/.idea/modules/EbayTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EbayTest_main.iml" filepath="$PROJECT_DIR$/.idea/modules/EbayTest_main.iml" group="EbayTest" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/EbayTest_test.iml" filepath="$PROJECT_DIR$/.idea/modules/EbayTest_test.iml" group="EbayTest" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/newGroupCreate.iml" filepath="$PROJECT_DIR$/.idea/modules/newGroupCreate.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/newGroupCreate_main.iml" filepath="$PROJECT_DIR$/.idea/modules/newGroupCreate_main.iml" group="newGroupCreate" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/newGroupCreate_test.iml" filepath="$PROJECT_DIR$/.idea/modules/newGroupCreate_test.iml" group="newGroupCreate" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-artifact.iml" filepath="$PROJECT_DIR$/.idea/modules/test-artifact.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-artifact_main.iml" filepath="$PROJECT_DIR$/.idea/modules/test-artifact_main.iml" group="test-artifact" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/test-artifact_test.iml" filepath="$PROJECT_DIR$/.idea/modules/test-artifact_test.iml" group="test-artifact" />
     </modules>
   </component>
 </project>
